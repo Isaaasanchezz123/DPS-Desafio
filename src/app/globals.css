@@ -1,0 +1,43 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+body {
+    background-color: black;
+    color: green;
+}
+
+.plano-parqueo {
+    padding: 20px; /* Espaciado alrededor del plano */
+}
+
+.espacio {
+    background-color: green; /* Color de fondo para los botones */
+    color: black; /* Color del texto en los botones */
+    border: none; /* Sin borde */
+    padding: 10px; /* Espaciado interno */
+    margin: 5px; /* Espaciado entre botones */
+    cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+}
+
+.ocupado {
+    opacity: 0.5; /* Efecto visual para indicar que está ocupado */
+}
+
+.resumen-reserva {
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo semi-transparente */
+    padding: 15px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.selector-zona {
+    margin-top: 20px; /* Espaciado superior */
+}
+
+.footer {
+    text-align: center; /* Centrar el texto */
+    padding: 10px; /* Espaciado interno */
+    position: fixed; /* Fijar en la parte inferior */
+    bottom: 0; /* Posicionar en la parte inferior */
+    width: 100%; /* Ancho completo */
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo semi-transparente */
+    color: white; /* Color del texto */
+}
