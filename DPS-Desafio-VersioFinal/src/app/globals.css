@@ -1,0 +1,43 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+body {
+    background-color: black;
+    color: green;
+}
+
+.plano-parqueo {
+    padding: 20px;
+}
+
+.espacio {
+    background-color: green;
+    color: black;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.ocupado {
+    opacity: 0.5;
+}
+
+.resumen-reserva {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.selector-zona {
+    margin-top: 20px;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
